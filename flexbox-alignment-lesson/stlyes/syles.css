@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Added styles for .box */
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: lightcoral;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.container {
+    display: flex;
+    background-color: aqua;
+    padding: 20px;
+    margin: 25px;
+    border: 4px solid black; /* Fixed border syntax */
+    justify-content: space-evenly;
+}
+
+/* Added styles for container2 */
+.container2 {
+    display: flex;
+    background-color: lightgreen;
+    padding: 20px;
+    margin: 25px;
+    border: 4px solid black;
+    justify-content: space-between; /* Different alignment for demo */
+}
+
